@@ -1,0 +1,23 @@
+
+.CoppyButtonDivision{
+   margin-top: 15%;
+   margin-left: 10%;
+}
+
+
+.copyButton{
+    background-color: rgb(228, 228, 228);
+    padding: 1em;
+    border: none;
+    color: rgb(169, 169, 169);
+    border-radius: 0.5em;
+    font-size: 15px;
+    width: 15em;
+    transition: 300ms ease-in-out;
+}
+
+.copyButton:hover{
+    cursor: pointer;
+    background-color: rgb(203, 203, 203);
+    color: rgb(132, 132, 132);
+}

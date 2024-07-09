@@ -1,0 +1,130 @@
+.AddIcon{
+    fill: rgb(149, 149, 149);
+    height: 30px;
+    width: 30px;
+    transition: 300ms ease-in-out;
+    border-radius: 3em;
+    padding: 0.8em;
+}
+
+.AddIcon:hover{
+    fill: rgb(0, 195, 255);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 3em;
+}
+
+.HubIcon{
+    fill: rgb(149, 149, 149);
+    height: 30px;
+    width: 30px;
+    transition: 300ms ease-in-out;
+    padding: 0.8em;
+    
+    border-radius: 3em;
+}
+
+.HubIcon:hover{
+    fill: rgb(0, 195, 255);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.StackedView{
+    fill: rgb(149, 149, 149);
+    height: 30px;
+    width: 30px;
+    transition: 300ms ease-in-out;
+    padding: 0.8em;
+    border-radius: 3em;
+}
+
+.StackedView:hover{
+    fill: rgb(0, 195, 255);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.Settings{
+    fill: rgb(149, 149, 149);
+    height: 30px;
+    width: 30px;
+    transition: 300ms ease-in-out;
+    padding: 0.8em;
+    border-radius: 3em;
+}
+
+.Settings:hover{
+    fill: rgb(0, 195, 255);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.SliderIcon{
+    fill:rgb(170, 170, 170);
+    height: 25px;
+    width: 25px;
+    margin-bottom: 1em;
+    margin-left: 0;
+}
+
+.Transmission{
+    fill:rgb(170, 170, 170);
+    height: 25px;
+    width: 25px;
+    margin-left: 0;
+    transition: 300ms ease-in-out;
+}
+
+.Transmission:hover{
+    fill: rgb(0, 195, 255);
+    cursor: pointer;
+    fill: rgb(255, 55, 55);
+}
+
+.CloseButton{
+    fill: rgb(151, 151, 151);
+    background-color: white;
+    padding: 0.5em;
+    border-radius: 3em;
+    transition: 300ms ease-in-out;
+}
+
+.CloseButton:hover{
+    cursor: pointer;
+}
+
+.AlertIconElement{
+    width: 40px;
+    height: 40px;
+}
+.alertBadge{
+    fill: rgb(230, 107, 177)
+}
+
+.bell{
+    fill: rgb(177, 177, 177);
+}
+.TrashCan{
+    fill: rgb(177, 177, 177);
+    transition: 300ms ease-in-out;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.3em;
+    border-radius: 3em;
+    filter: drop-shadow(0 0 0.30rem rgba(0, 0, 0, 0.087));
+}
+
+.TrashCan:hover{
+    fill: white;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    background-color: rgb(255, 0, 0);
+}

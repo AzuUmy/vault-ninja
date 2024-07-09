@@ -1,0 +1,46 @@
+.SideBar {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.755);
+  padding: 1em;
+  border-radius: 10em;
+  z-index: 999;
+  top: 50%;
+  margin: 0 6em;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 0.90rem rgba(0, 0, 0, 0.071));
+  backdrop-filter: blur(10px);
+}
+
+.userBgm{
+  padding: 1em;
+  border-radius: 5em;
+}
+
+
+.UserNickName{
+  padding: 1em;
+  border-radius: 2em;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+.UserName{
+  color: rgb(0, 195, 255);
+}
+
+.InteractiveButtons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em 1em 1em 1em;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.userImage{
+  width: 80px;
+  height: 80px;
+  border-radius:10em;
+  padding: 0.5em;
+ background-color: rgb(224, 224, 224);
+}

@@ -1,0 +1,40 @@
+
+@import url(./reset.css);
+@import url(./sideBar.css);
+@import url(./icons.css);
+@import url(./SearchBar.css);
+@import url(./maxCaracteres.css);
+@import url(./PasswordSection.css);
+@import url(./buttons.css);
+@import url(./passwrodStrength.css);
+@import url(./passwordOrigin.css);
+@import url(./notifications.css);
+@import url(./viewUserPasss.css);
+@import url(./loginPage.css);
+
+
+h3{
+ margin-top: none;
+
+}
+p{
+  margin-bottom: none;
+}
+
+#app{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+body {
+ 
+  font-family: 'Inter', sans-serif;
+
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 255, 255);
+  display: none;
+}

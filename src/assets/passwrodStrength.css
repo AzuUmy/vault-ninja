@@ -1,0 +1,72 @@
+
+.passwordMeeter {
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.057));
+    padding: 1em 6em;
+    border-radius: 1.5em;
+}
+
+.TituleIndicator{
+    text-align: center;
+    margin: 1em 0 4em 0;
+}
+
+.Svegement{
+    height:275px;
+    width: 330px;
+}
+
+.outCirclee{
+ padding: 1em;
+}
+
+.innerCirclee{
+    fill: rgb(255, 255, 255);
+    padding: 1em;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.114));
+}
+
+.Desc{
+   position: relative;
+   top: -120px;
+   left: 1px;
+}
+
+.Description-Element{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 9em;
+    padding: 0 1em;
+    font-size: 20px;
+    color: rgb(181, 181, 181);
+    
+}
+
+.IndicatorElement{
+    position: relative;
+    top: -180px;
+    left: 10px;
+}
+
+.Indicator{
+    position: absolute;
+    background-color: rgba(180, 180, 180, 0.09);
+    padding: 1em;
+    width: 60px;
+    rotate: 1deg;
+    border-radius: 5em;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    filter: drop-shadow(0 0 0.20rem rgba(206, 206, 206, 0.114));
+    color: rgb(0, 0, 0);
+    z-index: 999;
+}
+
+.HideInperfection{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em 9.2em;
+    top: 16em;
+    left: 7.8em;
+}

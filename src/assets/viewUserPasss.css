@@ -1,0 +1,279 @@
+
+.ViewPassContent{
+    position: fixed;
+    margin-top: 20em;
+    max-height: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.Content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Default setting for larger screens */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Use percentage for better responsiveness */
+    max-width: 2500px; /* Ensures it doesn't stretch too far */
+    padding: 1em;
+    overflow: auto; /* Adds scroll for overflow */
+    max-height: 1000px; /* Limits the height with overflow */
+}
+
+
+
+
+.Tets{
+    padding: 300em;
+}
+
+.UserData{
+    margin: 1em 0;
+    border-radius: 2em;
+    align-items: center;
+    padding: 2em;
+    filter: drop-shadow(0 0 0.30rem rgba(0, 0, 0, 0.089));
+    transition: 500ms ease-in-out;
+    background-color: white;
+}
+
+.UserData:hover{
+    cursor: pointer;
+    padding: 2.1em;
+}
+
+  .OrigemElements{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+  }
+
+  .ActionButton{
+    fill: grey;
+    rotate: 90deg;
+  }
+
+  .moreInteractions{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5em;
+  }
+
+  .passwordData{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    margin-top: 1em;
+  }
+
+  .UserPass{
+    border: none;
+    margin-right: 1em;
+    outline: none;
+    color: rgb(150, 150, 150);
+  }
+
+  .alignElements{
+    display: flex;
+    align-items: center;
+   
+  }
+
+  .buttonsInHub{
+     fill: rgb(126, 126, 126);
+  }
+
+  .userEmail{
+    color: rgb(150, 150, 150);
+  }
+
+
+  .Content{
+    overflow: auto;
+    max-height: 1000px;
+  }
+
+  .Content::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+  }
+
+
+  .Content::-webkit-scrollbar-thumb {
+    background: #cdcdcd;
+    border-radius: 3em;
+  }
+
+  .Content::-webkit-scrollbar-track {
+    border-radius: 20px;
+  }
+
+  /* Handle on hover */
+  .Content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    
+  }
+
+  .NEWoRIGINeLEMETS{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+
+
+  .interactionTemplatButton{
+    border: none;
+    padding: 0.5em;
+    background-color: white;
+    outline: none;
+    transition: 300ms ease-in-out;
+    border-radius: 0.5em;
+  }
+
+  .interactionTemplatButton:hover{
+    cursor: pointer;
+    background-color: rgb(237, 237, 237);
+  }
+
+  @media (max-width: 2400px){
+    .ViewPassContent{
+        margin-top: 17em;
+         
+    }
+
+    .Content {
+        grid-template-columns: repeat(4, 0.5fr); /* Adjusts to 2 columns for medium screens */
+        max-width: 100%; /* Allows the grid to adapt to the container width */
+        max-height: 800px;
+        }
+
+
+        .UserData{
+            margin: 1em;
+            border-radius: 2em;
+            align-items: center;
+            padding: 2em;
+        }
+  }
+
+
+@media (max-width: 2300px){
+    .ViewPassContent{
+        margin-top: 20em;
+         
+    }
+
+    .Content {
+        grid-template-columns: repeat(3, 0.5fr); /* Adjusts to 2 columns for medium screens */
+        max-width: 100%; /* Allows the grid to adapt to the container width */
+        max-height: 800px;
+        }
+
+
+        .UserData{
+            margin: 1em;
+            border-radius: 2em;
+            align-items: center;
+            padding: 2em;
+        }
+}
+
+  
+@media (max-width: 2000px){
+    .ViewPassContent{
+        margin-top: 20em;
+         
+    }
+
+    .Content {
+        grid-template-columns: repeat(3, 0.5fr); /* Adjusts to 2 columns for medium screens */
+        max-width: 100%; /* Allows the grid to adapt to the container width */
+        max-height: 800px;
+
+        }
+
+
+        .UserData{
+            margin: 1em;
+            border-radius: 2em;
+            align-items: center;
+            padding: 2em;
+        }
+}
+
+
+  @media (max-width: 1800px){
+    .ViewPassContent{
+        margin-top: 20em;
+         
+    }
+
+    .Content {
+        grid-template-columns: repeat(2, 0.5fr); /* Adjusts to 2 columns for medium screens */
+        max-width: 100%; /* Allows the grid to adapt to the container width */
+        max-height: 800px;
+        }
+
+
+        .UserData{
+            margin: 1em;
+            border-radius: 2em;
+            align-items: center;
+            padding: 2em;
+            font-size: 15px;
+        }
+  }
+
+
+@media (max-width:1551px ) {
+    .ViewPassContent{
+        margin-top: 20em;
+         
+    }
+
+    .Content {
+        grid-template-columns: repeat(2, 0.5fr); /* Adjusts to 2 columns for medium screens */
+        max-width: 100%; /* Allows the grid to adapt to the container width */
+        max-height: 700px;
+        }
+
+
+        .UserData{
+            margin: 1em;
+            border-radius: 2em;
+            align-items: center;
+            padding: 2em;
+            font-size: 12px;
+        }
+}
+
+
+  
+  @media (max-width: 1100px) {
+
+    .ViewPassContent{
+        margin-top: 20em;
+         
+    }
+    
+    .Content {
+        grid-template-columns: repeat(2, 0.5fr); /* Adjusts to 2 columns for medium screens */
+        max-width: 100%; /* Allows the grid to adapt to the container width */
+        max-height: 500px;
+        }
+
+        .UserData{
+            margin: 1em;
+            border-radius: 2em;
+            align-items: center;
+            padding: 2em;
+            font-size: 8px;
+        }
+    }
+

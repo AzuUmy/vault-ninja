@@ -1,0 +1,60 @@
+{
+  "name": "vault-ninja",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "index.cjs",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "dev": "vite",
+    "build": "vite build",
+    "electron:build": "electron-builder --win",
+    "electron:serve": "electron .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cross-spawn": "^7.0.3",
+    "electron-is-dev": "^3.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.19.2",
+    "latest-version": "^8.0.0",
+    "lts": "^1.2.0",
+    "normalize.css": "^8.0.1",
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.1",
+    "vue": "^3.4.20",
+    "vue-router": "^4.2.5",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "^28.2.2",
+    "electron-builder": "^24.13.3",
+    "vite": "^5.1.4"
+  },
+    "build": {
+    "appId": "LockClick",
+    "productName": "LockClick",
+    "directories": {
+      "output": "dist_electron"
+    },
+   "files": [
+    "Source/dist/**/*",
+    "index.cjs",
+    "package.json",
+    "Source/node_modules/**/*"
+  ],
+    "win": {
+      "target": "nsis",
+      "icon": "Source/src/img/marketing.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+}
+}

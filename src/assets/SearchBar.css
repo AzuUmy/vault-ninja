@@ -1,0 +1,94 @@
+.SearchBarElement {
+    position: fixed;
+    top: 0;
+    margin-top: 5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.SearchBar {
+    padding: 1.5em;
+    border: none;
+    filter: drop-shadow(0 0 0.60rem rgba(0, 0, 0, 0.057));
+    border-radius: 3em;
+    width: 600px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(184, 184, 184);
+}
+
+.SearchDropDownList {
+    color: rgb(134, 134, 134);
+    position: fixed;
+    top: 95%;
+    max-height: 0;
+    overflow: hidden;
+    width: 600px;
+    padding: 1em;
+    margin: 1em 1em;
+    border-radius: 1.5em;
+    z-index: 999;
+    filter: drop-shadow(0 0 0.60rem rgba(0, 0, 0, 0.057));
+    background-color: rgba(255, 255, 255, 0.794);
+    transition: max-height 0.3s ease;
+    opacity: 0%;
+    transition: 400ms ease-in-out;
+    backdrop-filter: blur(10px);
+}
+
+.SearchDropDownList.active {
+    max-height: 500px;
+}
+
+.DropDownListElements {
+    padding: 0 1em;
+}
+
+
+.imageDisplayed{
+    width: 30px;
+    height: 30px;
+    border-radius: 1em;
+
+}
+
+.alignContent{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+    transition: 300ms ease-in-out;
+}
+
+.alignContent:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    border-radius: 1em;
+}
+
+.searchContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyButtonInSearchBar{
+    background-color: rgb(219, 219, 219);
+    outline: none;
+    border: none;
+    padding: 0.6em;
+    color: rgb(103, 103, 103);
+    border-radius: 1em;
+    transition: 200ms ease-in-out;
+}
+
+.copyButtonInSearchBar:hover{
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 1.5em;
+}
